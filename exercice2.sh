@@ -5,10 +5,10 @@
 
 afficherMenu(){
     echo "Veuillez choisir une option"
-    echo "q (pour quitter)"
     echo "d (pour chercher un mot dans le dictionnaire)"
-    read choix
+    echo "q (pour quitter)"
 }
+choix=
 
 #Étape 2. Faire une boucle:
     #- offrir 2 choix: Quitter (choix q),
@@ -18,12 +18,15 @@ afficherMenu(){
 while [[ $choix != q ]]
 do
     afficherMenu
+    read choix
 
     if [[ $choix = d ]]                    
     then
         ./exercice1.sh
     else
-        echo "Au revoir"                
+        echo "Au revoir"   
     fi
+    sleep 1.5
+    clear
 done
 
