@@ -13,4 +13,4 @@ read -p "Quel age avez-vous ? " age
 echo $age " Vous etes jeune !"
 
 # -p pour demander une question.
-# si on veut afficher une variable, on met $ devans, sinon pas de $ devant
+# si on veut afficher une variable, on met $ devant, sinon pas de $ devant
