@@ -7,13 +7,13 @@ then
 fi
 
 
-if test -f $1             # -f veut dire c'est un fichier. Avec le test vs les [[]], on peut ajouter des -e ou autre
+if test -f $1             # -f veut dire c'est un fichier. 
 then
     echo "c'est un fichier"
 fi
 
 
-if test -d $1             # -d veut dire c'est un dossier. Avec le test vs les [[]], on peut ajouter des -e ou autre
+if test -d $1             # -d veut dire c'est un dossier. 
 then
     echo "c'est un dossier"
 fi

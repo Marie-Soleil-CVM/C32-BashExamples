@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo 10+10
-echo $((10+10))   #pour afficher un résultat de calcul, on doit mettre $(())
+echo $((10+10))   #pour faire un calcul, on doit mettre $(())
 valeur=$((10+10))  # on peut aussi ranger le résultat dans une variable puis l'afficher
 echo $valeur
 
